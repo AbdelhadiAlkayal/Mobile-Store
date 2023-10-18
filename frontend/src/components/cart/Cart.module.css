@@ -1,0 +1,154 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-top: 5rem;
+  margin-left: 23rem;
+  margin-right: 20rem;
+  background-color: #f5f5f5;
+  padding: 35px 56px;
+  border-radius: 30px;
+}
+.container {
+  margin: 12rem 4rem;
+}
+
+.container > h1 {
+  padding: 20px 0;
+}
+
+.cart {
+  display: flex;
+  gap: 3rem;
+}
+.p {
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 13px;
+  border-bottom: 2px solid rgba(102, 101, 101, 0.164);
+}
+
+.products {
+  width: 53rem;
+}
+
+.product {
+  background-color: #eeeeee;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #23222254;
+  margin-bottom: 19px;
+}
+
+.info {
+  display: flex;
+  gap: 1rem;
+}
+.info img {
+  border-radius: 25px;
+  padding: 1rem;
+  width: 10rem;
+}
+
+.name,
+.price {
+  margin-bottom: 20px;
+}
+.remove {
+  color: #ff0505;
+  font-size: 17px;
+  cursor: pointer;
+}
+.remove:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+.icon {
+  font-size: 23px;
+  display: flex;
+  gap: 2rem;
+  padding-top: 7rem;
+  padding-left: 4rem;
+  cursor: pointer;
+}
+
+.icon .minus {
+  transform: scaleX(-1);
+}
+.icon .plus:hover {
+  color: #13a313;
+  border: none;
+  transition: 0.5s;
+  transform: scaleX(-1.02);
+}
+.icon .minus:hover {
+  color: #ff0505;
+  border: none;
+  transition: 0.5s;
+  transform: scaleX(1.02);
+}
+.quantity {
+  font-weight: bold;
+}
+.quantity > input {
+  width: 40px;
+
+  padding: 5px;
+
+  text-align: center;
+}
+
+.total {
+  padding: 13px;
+  height: 14rem;
+  background-color: #eeee;
+  border-radius: 12px;
+  color: black;
+}
+
+.total p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  font-size: 20px;
+}
+
+.button {
+  width: 200px;
+  padding: 15px 0;
+  margin: 44px 35px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #1f1f1f;
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  transition: 0.5s;
+  z-index: -10;
+}
+.button:hover .span {
+  width: 100%;
+}
+.button:hover {
+  border: none;
+  color: #eeee;
+}

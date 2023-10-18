@@ -1,0 +1,137 @@
+.container {
+  margin-top: 12rem;
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+.container .heading {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 35px;
+  text-shadow: rgba(0, 0, 0, 0.2);
+  font-family: math;
+}
+.image {
+  height: 13rem;
+  width: 15rem;
+  border-top-right-radius: 21px;
+}
+.container .boxContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 3fr));
+  gap: 7rem;
+}
+.container .boxContainer .box {
+  height: 38rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 21px;
+  background-color: rgb(71, 74, 77);
+  text-align: center;
+  width: 15rem;
+  border-bottom-right-radius: 0;
+}
+.box a {
+  text-decoration: none;
+  color: white;
+}
+.container .boxContainer .box h3 {
+  font-family: math;
+  color: #009688;
+  font-size: 25px;
+  padding: 10px;
+}
+.container .boxContainer .box p {
+  color: white;
+  font-family: math;
+  padding: 8px 0;
+  font-size: 18px;
+}
+.container .boxContainer .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+/* 
+.events {
+  margin: 9rem 0 0 19rem;
+  max-width: 73rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.item a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  background-color: var(--color-gray-800);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.item a:hover {
+  transform: scale(1.02);
+  background-color: var(--color-gray-700);
+}
+
+.item img {
+  width: 33%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.item h2 {
+  margin: 0 0 1rem 0;
+} */
+
+/* Media queries for responsiveness 
+@media screen and (max-width: 1366px) {
+  /* Styles for screens up to 1366px width (Laptop) 
+  .events {
+    margin: 6rem auto; /* Center-align and reduce top margin 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px width (Tablet) 
+  .events {
+    margin: 4rem auto; /* Center-align and reduce top margin 
+  }
+  .list {
+    grid-template-columns: repeat(1, 1fr); /* Single column layout 
+  }
+}
+
+@media screen and (max-width: 411px) {
+  /* Styles for screens up to 411px width (Pixel 2) 
+  .events {
+    margin: 3rem auto; /* Center-align and reduce top margin 
+  }
+  .item h2 {
+    font-size: 18px; /* Adjust font size 
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Styles for screens up to 375px width (Mobile) 
+  .events {
+    margin: 2rem auto; /* Center-align and reduce top margin 
+  }
+  .item a {
+    flex-direction: column; /* Stack content vertically 
+  }
+  .item img {
+    width: 100%; /* Full width for images 
+  }
+  .item h2 {
+    font-size: 16px; /* Adjust font size 
+  }
+}
+*/

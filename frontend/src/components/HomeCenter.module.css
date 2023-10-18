@@ -1,0 +1,112 @@
+/* Default styles */
+.countiner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  overflow: hidden;
+  width: 100%;
+  background-image: url("../assets/img-6.jpg");
+}
+
+.countiner::before {
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
+.hero {
+  position: absolute;
+  top: 10rem;
+  left: 4rem;
+}
+
+.title {
+  font-size: 43px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.welcomeParagraph {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 24px 0;
+  border-radius: 25px;
+}
+
+.highlightText {
+  font-weight: bold;
+  color: #009688;
+}
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  transition: 0.5s;
+  z-index: -10;
+}
+button:hover .span {
+  width: 100%;
+}
+button:hover {
+  border: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px width (Tablet) */
+  .content {
+    top: 5rem; /* Adjust the position from the top for Tablet screens */
+    left: 5rem; /* Adjust the position from the left for Tablet screens */
+  }
+
+  .title {
+    font-size: 3em; /* Adjust the font size for Tablet screens */
+  }
+
+  .welcomeParagraph {
+    font-size: 16px; /* Adjust the font size for Tablet screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for screens up to 576px width (Mobile) */
+  .content {
+    top: 3rem; /* Adjust the position from the top for Mobile screens */
+    left: 3rem; /* Adjust the position from the left for Mobile screens */
+  }
+
+  .title {
+    font-size: 2.5em; /* Adjust the font size for Mobile screens */
+  }
+
+  .welcomeParagraph {
+    font-size: 14px; /* Adjust the font size for Mobile screens */
+  }
+}

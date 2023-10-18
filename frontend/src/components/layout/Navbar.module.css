@@ -1,0 +1,32 @@
+/* Default header styles */
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3rem;
+  width: 100%;
+  z-index: 100;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px width (Tablet and smaller) */
+  .header {
+    height: 4rem; /* Reduce header height */
+    padding: 0 2%; /* Reduce padding */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for screens up to 576px width (Mobile) */
+  .header {
+    height: 3.5rem; /* Further reduce header height */
+    padding: 0 1%; /* Further reduce padding */
+  }
+}

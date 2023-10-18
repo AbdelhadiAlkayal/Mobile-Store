@@ -1,0 +1,38 @@
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  transition: 0.5s;
+}
+nav ul li:hover::after {
+  width: 100%;
+  color: #cac9c9;
+}
+.active {
+  color: #cac9c9;
+}
+.active::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  transition: 0.5s;
+}

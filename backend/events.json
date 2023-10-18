@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "id": "e1",
+      "title": "Iphone 15 pro Max",
+      "price": 1320,
+      "image": "https://www.jo-cell.com/cdn/shop/files/100345842_100_01.webp?v=1696965061&width=850",
+      "description": "The Samsung Galaxy S23 Ultra is the headliner of the S23 series. Specifications are top-notch including 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 2 processor, 5000mAh battery, up to 12gigs of RAM, and 1TB of storage.",
+      "hardware": "8 GB RAM",
+      "software": "iOS 17.x",
+      "battery": "3274 mAh"
+    },
+    {
+      "id": "e2",
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": 980,
+      "image": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/2b10ac7e-8ff2-45c6-a68d-949999165373.f6933d77981516bcbba45cfa4578e95d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": "The Samsung Galaxy S23 Ultra is the headliner of the S23 series. Specifications are top-notch including 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 2 processor, 5000mAh battery, up to 12gigs of RAM, and 1TB of storage.",
+      "hardware": "8 GB RAM",
+      "software": "Android 13",
+      "battery": "5000 mAh"
+    },
+    {
+      "id": "e3",
+      "title": "Iphone 14 pro Max",
+      "price": 780,
+      "image": "//www.jo-cell.com/cdn/shop/products/596688-Product-0-I-637982218040540343.webp?v=1671399928&amp;width=2048",
+      "description": "The iPhone 14 Pro Max comes with 6.7-inch OLED display with 120Hz refresh rate and Apple's improved Bionic A16 processor. On the back there is a Triple camera setup with 48MP main camera.",
+      "hardware": "6 GB RAM",
+      "software": "IOS 16.x",
+      "battery": "4323 mAh"
+    },
+    {
+      "id": "e4",
+      "title": "Samsung Galaxy Z Fold 5",
+      "price": 1080,
+      "image": "https://images.samsung.com/levant/smartphones/galaxy-z-fold5/images/galaxy-z-fold5-highlights-kv-a.jpg?imbypass=true",
+      "description": "The Samsung Galaxy Z Fold 5 comes with 7.6-inch Dynamic AMOLED display and with 6.2-inch cover screen. Specs also include Qualcomm Snapdragon 8 Gen 2 processor, 4400mAh battery and Triple camera setup on the back.",
+      "hardware": "12 GB RAM",
+      "software": "Android 13",
+      "battery": "4400 mAh"
+    },
+    {
+      "id": "e5",
+      "title": "Macbook pro m2",
+      "price": 1350,
+      "image": "https://m.media-amazon.com/images/I/61L5QgPvgqL._AC_UF894,1000_QL80_.jpg",
+      "description": "Apple 2022 MacBook Pro Laptop with M2 chip: 13-inch Retina Display, 8GB RAM, 256GB ​​​​​​​SSD ​​​​​​​Storage, Touch Bar, Backlit Keyboard, FaceTime HD Camera. Works with iPhone and iPad.",
+      "hardware": "8 GB RAM",
+      "software": "Mac OS",
+      "battery": "8000 mAh"
+    },
+    {
+      "id": "e6",
+      "title": "ASUS ROG Strix G15",
+      "price": 1320,
+      "image": "https://dlcdnwebimgs.asus.com/files/media/8B74E7EE-B66A-4420-894E-3C3B980312EE/v2/img/design/color/strix-g-2022-pink.png",
+      "description": "The ROG Strix G15/17 embodies streamlined design, offering a formidable core experience for serious gaming and multitasking on Windows 10 Pro. Featuring up to the latest 10th Gen Intel® Core™ i7 CPU and a GeForce RTX™ 2070 SUPER GPU, it offers high-FPS power that takes full advantage of up to a blazing fast 240Hz/3ms display.",
+      "hardware": "16 GB RAM",
+      "software": "Windows 12",
+      "battery": "9280 mAh"
+    },
+    {
+      "id": "e7",
+      "title": "Xiaomi 13T Pro",
+      "price": 500,
+      "image": "https://i02.appmifile.com/324_operator_in/03/03/2023/de94b40a14b8e329c491e7a4b752635f.jpg",
+      "description": "The Xiaomi 13T Pro comes with 6.73-inch Dynamic AMOLED display. Specs also include Qualcomm Snapdragon 8 Gen 2 processor, 5000mAh battery and Triple camera setup on the back .",
+      "hardware": "16 GB RAM",
+      "software": "Android 14",
+      "battery": "5000 mAh"
+    },
+    {
+      "id": "e8",
+      "title": "Redmi note 12 pro 5g",
+      "price": 420,
+      "image": "https://m.media-amazon.com/images/I/61CtPs0RJaL._AC_UF894,1000_QL80_.jpg",
+      "description": "Redmi Note 12 Pro 5G comes with a 120Hz Pro AMOLED Display with Dolby Atmos & Vision support. This combination along with HDR10+, a 1 billion color display, dual stereo speakers, and hi-res audio (wired & wireless) certification transforms your device into a wholesome multimedia package.",
+      "hardware": "8 GB RAM",
+      "software": "Android 12",
+      "battery": "5000 mAh"
+    }
+  ]
+}
